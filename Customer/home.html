@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Sixteen Clothing</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+   <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+         <a class="navbar-brand" href="#">Sixteen Clothing</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+               </li>
+
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Shop</a>
+                  <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="#">Men</a></li>
+                     <li><a class="dropdown-item" href="#">Women</a></li>
+                     <li><a class="dropdown-item" href="#">Kids</a></li>
+                  </ul>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+               </li>
+            </ul>
+
+            <div class="d-flex">
+               <a href="#" class="nav-icon"><i class="bi bi-person"></i></a>
+               <a href="#" class="nav-icon"><i class="bi bi-heart"></i></a>
+               <a href="#" class="nav-icon"><i class="bi bi-cart"></i></a>
+            </div>
+         </div>
+      </div>
+   </nav>
+
+   <!-- Hero Section -->
+   <section class="hero">
+      <div class="container text-center">
+         <h1>Elevate Your Style</h1>
+         <p>Discover the latest trends in fashion</p>
+         <a href="#" class="btn btn-primary btn-lg mt-3">Shop Now</a>
+      </div>
+   </section>
+
+   <!-- Featured Categories -->
+   <section class="py-5">
+      <div class="container">
+         <h2 class="text-center mb-4">Featured Categories</h2>
+         <div class="row g-4">
+            <div class="col-md-4">
+               <div class="card category-card">
+                  <img src="images/mens.png" class="card-img-top" alt="Men">
+                  <div class="card-body text-center">
+                     <h5 class="card-title">Men</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card category-card">
+                  <img src="images/womens.png" class="card-img-top" alt="Women">
+                  <div class="card-body text-center">
+                     <h5 class="card-title">Women</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card category-card">
+                  <img src="images/kids.png" class="card-img-top" alt="Kids">
+                  <div class="card-body text-center">
+                     <h5 class="card-title">Kids</h5>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Best Sellers -->
+   <section class="py-5 bg-light">
+      <div class="container">
+         <h2 class="text-center mb-4">Best Sellers</h2>
+         <div class="row g-4">
+            <div class="col-md-3">
+               <div class="card product-card">
+                  <img src="images/jacket.png" class="card-img-top" alt="Product">
+                  <div class="card-body text-center">
+                     <h6 class="card-title">Classic Jacket</h6>
+                     <p class="text-muted">$49.99</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3">
+               <div class="card product-card">
+                  <img src="images/cotton-shirt.png" class="card-img-top" alt="Product">
+                  <div class="card-body text-center">
+                     <h6 class="card-title">Cotton Shirt</h6>
+                     <p class="text-muted">$29.99</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3">
+               <div class="card product-card">
+                  <img src="images/floral-dress.png" class="card-img-top" alt="Product">
+                  <div class="card-body text-center">
+                     <h6 class="card-title">Floral Dress</h6>
+                     <p class="text-muted">$39.99</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3">
+               <div class="card product-card">
+                  <img src="images/sneakers.png" class="card-img-top" alt="Product">
+                  <div class="card-body text-center">
+                     <h6 class="card-title">Sneakers</h6>
+                     <p class="text-muted">$59.99</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Newsletter -->
+   <section class="newsletter text-center">
+      <div class="container">
+         <h2>Stay Updated</h2>
+         <p>Sign up for exclusive offers & news</p>
+         <form class="row justify-content-center mt-3">
+            <div class="col-md-6">
+               <input type="email" class="form-control" placeholder="Enter your email" />
+            </div>
+            <div class="col-md-auto">
+               <button class="btn btn-dark" type="submit">Subscribe</button>
+            </div>
+         </form>
+      </div>
+   </section>
+
+   <!-- Footer Start -->
+   <footer class="footer bg-dark text-light pt-5 pb-4 mt-5">
+      <div class="container text-md-left">
+         <div class="row text-md-left">
+
+            <!-- About -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+               <h5 class="text-uppercase fw-bold mb-4">Sixteen Clothing</h5>
+               <p>We offer the best fashion deals for men, women, and kids. Enjoy secure shopping, fast delivery, and
+                  stylish
+                  clothing!</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+               <h6 class="text-uppercase fw-bold mb-4">Quick Links</h6>
+               <p><a href="#" class="text-light text-decoration-none">Home</a></p>
+               <p><a href="#" class="text-light text-decoration-none">Men</a></p>
+               <p><a href="#" class="text-light text-decoration-none">Women</a></p>
+               <p><a href="#" class="text-light text-decoration-none">Kids</a></p>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+               <p><i class="bi bi-house-door me-2"></i> 123 Fashion Street, Colombo, Sri Lanka</p>
+               <p><i class="bi bi-envelope me-2"></i> support@sixteenclothing.com</p>
+               <p><i class="bi bi-phone me-2"></i> +94 77 123 4567</p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3">
+               <h6 class="text-uppercase fw-bold mb-4">Follow Us</h6>
+               <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="bi bi-facebook"></i></a>
+               <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="bi bi-instagram"></i></a>
+               <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="bi bi-twitter"></i></a>
+               <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+         </div>
+
+         <hr class="mb-4">
+
+         <!-- Footer bottom -->
+         <div class="row align-items-center">
+            <div class="col-md-7 col-lg-8">
+               <p class="text-center text-md-start">© 2025 Sixteen Clothing. All Rights Reserved.</p>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- Footer End -->
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
