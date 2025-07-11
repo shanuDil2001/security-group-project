@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Contact Us</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+   <link rel="stylesheet" href="css/contactUs.css">
+</head>
+
+<body>
+
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+         <a class="navbar-brand" href="#">Sixteen Clothing</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+               </li>
+
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Shop</a>
+                  <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="#">Men</a></li>
+                     <li><a class="dropdown-item" href="#">Women</a></li>
+                     <li><a class="dropdown-item" href="#">Kids</a></li>
+                  </ul>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+               </li>
+            </ul>
+
+            <div class="d-flex">
+               <a href="#" class="nav-icon"><i class="bi bi-person"></i></a>
+               <a href="#" class="nav-icon"><i class="bi bi-heart"></i></a>
+               <a href="#" class="nav-icon"><i class="bi bi-cart"></i></a>
+            </div>
+         </div>
+      </div>
+   </nav>
+
+   <!-- Contact Header -->
+   <div class="contact-header">
+      <h1>Contact Us</h1>
+      <p class="lead">We’re here to help. Reach out anytime.</p>
+   </div>
+
+   <!-- Contact Form -->
+   <section class="contact-form container">
+      <div class="row">
+         <div class="col-md-6">
+            <h3>Send Us a Message</h3>
+            <form>
+               <div class="mb-3">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" id="name" class="form-control" required />
+               </div>
+               <div class="mb-3">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" id="email" class="form-control" required />
+               </div>
+               <div class="mb-3">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea id="message" class="form-control" rows="5" required></textarea>
+               </div>
+               <button type="submit" class="btn btn-dark">Send Message</button>
+            </form>
+         </div>
+         <div class="col-md-6 contact-info">
+            <h4>Contact Info</h4>
+            <p><strong>Address:</strong> 123 Fashion Ave, Colombo, Sri Lanka</p>
+            <p><strong>Email:</strong> support@clothify.com</p>
+            <p><strong>Phone:</strong> +94 11 2345678</p>
+            <p><strong>Hours:</strong> Mon - Fri: 9 AM - 6 PM</p>
+         </div>
+      </div>
+   </section>
+
+   <!-- Footer Start -->
+   <footer class="footer bg-dark text-light pt-5 pb-4 mt-5">
+      <div class="container text-md-left">
+         <div class="row text-md-left">
+
+            <!-- About -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+               <h5 class="text-uppercase fw-bold mb-4">Sixteen Clothing</h5>
+               <p>We offer the best fashion deals for men, women, and kids. Enjoy secure shopping, fast delivery, and
+                  stylish
+                  clothing!</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+               <h6 class="text-uppercase fw-bold mb-4">Quick Links</h6>
+               <p><a href="#" class="text-light text-decoration-none">Home</a></p>
+               <p><a href="#" class="text-light text-decoration-none">Men</a></p>
+               <p><a href="#" class="text-light text-decoration-none">Women</a></p>
+               <p><a href="#" class="text-light text-decoration-none">Kids</a></p>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+               <p><i class="bi bi-house-door me-2"></i> 123 Fashion Street, Colombo, Sri Lanka</p>
+               <p><i class="bi bi-envelope me-2"></i> support@sixteenclothing.com</p>
+               <p><i class="bi bi-phone me-2"></i> +94 77 123 4567</p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3">
+               <h6 class="text-uppercase fw-bold mb-4">Follow Us</h6>
+               <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="bi bi-facebook"></i></a>
+               <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="bi bi-instagram"></i></a>
+               <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="bi bi-twitter"></i></a>
+               <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+         </div>
+
+         <hr class="mb-4">
+
+         <!-- Footer bottom -->
+         <div class="row align-items-center">
+            <div class="col-md-7 col-lg-8">
+               <p class="text-center text-md-start">© 2025 Sixteen Clothing. All Rights Reserved.</p>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- Footer End -->
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
